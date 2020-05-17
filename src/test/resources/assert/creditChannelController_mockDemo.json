@@ -1,0 +1,17 @@
+{
+  "code": 0,
+  "msg": "成功",
+  "data": {
+    "id": 1,
+    "taskCode": "模拟编码",
+    "taskName": "模拟名称",
+    "taskImg": "模拟图片",
+    "redirectType": 0,
+    "unitScore": 0,
+    "taskDesc": "",
+    "totalScore": 0,
+    "createTime": 1589597175903,
+    "modifyTime": 1589597175903,
+    "isDeleted": false
+  }
+}

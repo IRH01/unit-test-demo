@@ -1,33 +1,33 @@
 insert into `credit_channel`(`id`, `task_code`, `task_name`, `task_img`, `redirect_type`, `unit_score`, `task_desc`,
                              `total_score`, `create_time`, `modify_time`, `is_deleted`)
-values (1, 'open_box_given', '开盒有礼', 'http://static.yunjiglobal.com/qnUpload/frontend/pandora/credit/open.png', 1, 5,
+values (1, 'open_box_given', '开盒有礼', 'http://static.dhgateglobal.com/qnUpload/frontend/pandora/credit/open.png', 1, 5,
         '登录潘多拉', 0, '2020-04-29 18:07:35', '2020-05-15 12:01:17', 0);
 
 insert into `credit_channel`(`id`, `task_code`, `task_name`, `task_img`, `redirect_type`, `unit_score`, `task_desc`,
                              `total_score`, `create_time`, `modify_time`, `is_deleted`)
-values (2, 'vote_given', '投票有礼', 'http://static.yunjiglobal.com/qnUpload/frontend/pandora/credit/vote.png', 2, 3,
+values (2, 'vote_given', '投票有礼', 'http://static.dhgateglobal.com/qnUpload/frontend/pandora/credit/vote.png', 2, 3,
         '成功参与众测投票', 0, '2020-05-06 19:11:43', '2020-05-15 12:03:27', 0);
 
 insert into `credit_channel`(`id`, `task_code`, `task_name`, `task_img`, `redirect_type`, `unit_score`, `task_desc`,
                              `total_score`, `create_time`, `modify_time`, `is_deleted`)
-values (3, 'feedback_given_for_4', '反馈有礼', 'http://static.yunjiglobal.com/qnUpload/frontend/pandora/credit/message.png',
+values (3, 'feedback_given_for_4', '反馈有礼', 'http://static.dhgateglobal.com/qnUpload/frontend/pandora/credit/message.png',
         5, 5, '完成投递（如送到丰巢）超过4天完成试用反馈', 0, '2020-05-07 08:42:16', '2020-05-13 16:19:40', 0);
 
 insert into `credit_channel`(`id`, `task_code`, `task_name`, `task_img`, `redirect_type`, `unit_score`, `task_desc`,
                              `total_score`, `create_time`, `modify_time`, `is_deleted`)
 values (4, 'feedback_given_for_2_4', '反馈有礼',
-        'http://static.yunjiglobal.com/qnUpload/frontend/pandora/credit/message.png', 5, 10, '完成投递（如送到丰巢）2天-4天内完成试用反馈',
+        'http://static.dhgateglobal.com/qnUpload/frontend/pandora/credit/message.png', 5, 10, '完成投递（如送到丰巢）2天-4天内完成试用反馈',
         0, '2020-05-07 08:42:16', '2020-05-13 16:20:50', 0);
 
 insert into `credit_channel`(`id`, `task_code`, `task_name`, `task_img`, `redirect_type`, `unit_score`, `task_desc`,
                              `total_score`, `create_time`, `modify_time`, `is_deleted`)
-values (5, 'feedback_given_for_2', '反馈有礼', 'http://static.yunjiglobal.com/qnUpload/frontend/pandora/credit/message.png',
+values (5, 'feedback_given_for_2', '反馈有礼', 'http://static.dhgateglobal.com/qnUpload/frontend/pandora/credit/message.png',
         5, 15, '完成投递（如送到丰巢）2天内完成试用反馈', 0, '2020-05-07 15:08:28', '2020-05-13 16:20:53', 0);
 
 insert into `credit_channel`(`id`, `task_code`, `task_name`, `task_img`, `redirect_type`, `unit_score`, `task_desc`,
                              `total_score`, `create_time`, `modify_time`, `is_deleted`)
 values (6, 'vomit_sign_excellent_given', '反馈有礼',
-        'http://static.yunjiglobal.com/qnUpload/frontend/pandora/credit/message.png', 5, 5, '吐槽报告被评为优秀', 0,
+        'http://static.dhgateglobal.com/qnUpload/frontend/pandora/credit/message.png', 5, 5, '吐槽报告被评为优秀', 0,
         '2020-05-07 15:08:28', '2020-05-13 16:21:20', 0);
 
 insert into `credit_channel`(`id`, `task_code`, `task_name`, `task_img`, `redirect_type`, `unit_score`, `task_desc`,
@@ -37,12 +37,12 @@ values (7, 'credit_deduct', '信用分扣减', 'http://www.baidu.com/meitu/a.jpg
 
 insert into `credit_channel`(`id`, `task_code`, `task_name`, `task_img`, `redirect_type`, `unit_score`, `task_desc`,
                              `total_score`, `create_time`, `modify_time`, `is_deleted`)
-values (8, 'seeding_given', '种草有礼', 'http://static.yunjiglobal.com/qnUpload/frontend/pandora/credit/grass.png', 5, 5,
+values (8, 'seeding_given', '种草有礼', 'http://static.dhgateglobal.com/qnUpload/frontend/pandora/credit/grass.png', 5, 5,
         '为试用商品上传素材', 0, '2020-05-07 15:55:22', '2020-05-13 16:19:35', 0);
 
 insert into `credit_channel`(`id`, `task_code`, `task_name`, `task_img`, `redirect_type`, `unit_score`, `task_desc`,
                              `total_score`, `create_time`, `modify_time`, `is_deleted`)
-values (9, 'appear_given', '出单有礼', 'http://static.yunjiglobal.com/qnUpload/frontend/pandora/credit/order.png', 5, 5,
+values (9, 'appear_given', '出单有礼', 'http://static.dhgateglobal.com/qnUpload/frontend/pandora/credit/order.png', 5, 5,
         '有效期社群出单≥1', 0, '2020-05-07 15:58:31', '2020-05-13 16:19:03', 0);
 
 insert into `credit_channel`(`id`, `task_code`, `task_name`, `task_img`, `redirect_type`, `unit_score`, `task_desc`,

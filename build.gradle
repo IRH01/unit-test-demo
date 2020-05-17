@@ -4,9 +4,14 @@ plugins {
     id 'java'
 }
 
-group = 'com.yunji'
-version = '${mainVersion}-${env}'
-sourceCompatibility = '1.8'
+group = "com.dhgate"
+version = "${mainVersion}-${env}"
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'Gradle Quickstart', 'Implementation-Version': archiveVersion
+    }
+}
 
 repositories {
     mavenCentral()
@@ -29,5 +34,11 @@ dependencies {
     compile 'com.github.xiaoymin:swagger-bootstrap-ui:1.9.6'
     compile 'com.alibaba:druid-spring-boot-starter:1.1.22'
     compile 'com.alibaba:fastjson:1.2.68'
-    compile('org.springframework.boot:spring-boot-starter-test')
+    compile 'com.google.code.gson:gson:2.6.2'
+    testCompile('org.springframework.boot:spring-boot-starter-test')
 }
+
+//test {
+//    exclude '**'
+//}
+

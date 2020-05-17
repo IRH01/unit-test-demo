@@ -1,0 +1,13 @@
+{
+  "taskDesc": "登录潘多拉",
+  "taskImg": "http://static.dhgateglobal.com/qnUpload/frontend/pandora/credit/open.png",
+  "modifyTime": 1589515277000,
+  "isDeleted": false,
+  "taskCode": "open_box_given",
+  "createTime": 1588154855000,
+  "unitScore": 5,
+  "taskName": "开盒有礼",
+  "id": 1,
+  "redirectType": 1,
+  "totalScore": 0
+}

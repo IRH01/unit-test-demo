@@ -1,0 +1,74 @@
+{
+  "code": 0,
+  "msg": "成功",
+  "data": {
+    "list": [
+      {
+        "id": 1,
+        "taskCode": "open_box_given",
+        "taskName": "开盒有礼",
+        "taskImg": "http://static.dhgateglobal.com/qnUpload/frontend/pandora/credit/open.png",
+        "redirectType": 1,
+        "unitScore": 5,
+        "taskDesc": "登录潘多拉",
+        "totalScore": 0,
+        "createTime": 1588154855000,
+        "modifyTime": 1589515277000,
+        "isDeleted": false
+      },
+      {
+        "id": 2,
+        "taskCode": "vote_given",
+        "taskName": "投票有礼",
+        "taskImg": "http://static.dhgateglobal.com/qnUpload/frontend/pandora/credit/vote.png",
+        "redirectType": 2,
+        "unitScore": 3,
+        "taskDesc": "成功参与众测投票",
+        "totalScore": 0,
+        "createTime": 1588763503000,
+        "modifyTime": 1589515407000,
+        "isDeleted": false
+      },
+      {
+        "id": 3,
+        "taskCode": "feedback_given_for_4",
+        "taskName": "反馈有礼",
+        "taskImg": "http://static.dhgateglobal.com/qnUpload/frontend/pandora/credit/message.png",
+        "redirectType": 5,
+        "unitScore": 5,
+        "taskDesc": "完成投递（如送到丰巢）超过4天完成试用反馈",
+        "totalScore": 0,
+        "createTime": 1588812136000,
+        "modifyTime": 1589357980000,
+        "isDeleted": false
+      },
+      {
+        "id": 4,
+        "taskCode": "feedback_given_for_2_4",
+        "taskName": "反馈有礼",
+        "taskImg": "http://static.dhgateglobal.com/qnUpload/frontend/pandora/credit/message.png",
+        "redirectType": 5,
+        "unitScore": 10,
+        "taskDesc": "完成投递（如送到丰巢）2天-4天内完成试用反馈",
+        "totalScore": 0,
+        "createTime": 1588812136000,
+        "modifyTime": 1589358050000,
+        "isDeleted": false
+      },
+      {
+        "id": 5,
+        "taskCode": "feedback_given_for_2",
+        "taskName": "反馈有礼",
+        "taskImg": "http://static.dhgateglobal.com/qnUpload/frontend/pandora/credit/message.png",
+        "redirectType": 5,
+        "unitScore": 15,
+        "taskDesc": "完成投递（如送到丰巢）2天内完成试用反馈",
+        "totalScore": 0,
+        "createTime": 1588835308000,
+        "modifyTime": 1589358053000,
+        "isDeleted": false
+      }
+    ],
+    "totalCount": 8
+  }
+}

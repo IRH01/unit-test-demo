@@ -7,7 +7,7 @@ server:
 spring:
   http:
     encoding:
-      charset: utf-8
+      charset: UTF-8
       enabled: true
       force: true
       force-response: true
@@ -41,8 +41,8 @@ spring:
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=500
 
 mybatis-plus:
-  mapper-locations: classpath:com.yunji.unit.mapper/*Mapper.xml
-  typeAliasesPackage: com.yunji.unit.entity
+  mapper-locations: classpath:com.dhgate.unit.mapper/*Mapper.xml
+  typeAliasesPackage: com.dhgate.unit.entity
   configuration:
     map-underscore-to-camel-case: true
 
