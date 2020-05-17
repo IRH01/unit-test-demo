@@ -1,0 +1,33 @@
+plugins {
+    id 'org.springframework.boot' version "${springBootVersion}"
+    id 'io.spring.dependency-management' version "${dependencyManagement}"
+    id 'java'
+}
+
+group = 'com.yunji'
+version = '${mainVersion}-${env}'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+    maven {
+        url = 'http://maven.aliyun.com/nexus/content/groups/public/'
+    }
+
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.2'
+    compile 'com.baomidou:mybatis-plus-boot-starter:3.3.1'
+    compile 'org.projectlombok:lombok'
+    compile 'mysql:mysql-connector-java'
+    annotationProcessor 'org.projectlombok:lombok'
+    compile 'org.apache.commons:commons-lang3:3.10'
+    compile 'io.springfox:springfox-swagger2:2.9.2'
+    compile 'io.springfox:springfox-swagger-ui:2.9.2'
+    compile 'com.github.xiaoymin:swagger-bootstrap-ui:1.9.6'
+    compile 'com.alibaba:druid-spring-boot-starter:1.1.22'
+    compile 'com.alibaba:fastjson:1.2.68'
+    compile('org.springframework.boot:spring-boot-starter-test')
+}

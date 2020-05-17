@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yunji.unit.mapper.CreditLevelMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.yunji.unit.entity.CreditLevel">
+        <id column="id" property="id" />
+        <result column="level" property="level" />
+        <result column="level_name" property="levelName" />
+        <result column="level_img" property="levelImg" />
+        <result column="score_crisis" property="scoreCrisis" />
+        <result column="create_time" property="createTime" />
+        <result column="modify_time" property="modifyTime" />
+        <result column="is_deleted" property="isDeleted" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+ 		id ,level ,level_name ,level_img ,score_crisis ,create_time ,modify_time ,is_deleted
+    </sql>
+
+</mapper>
